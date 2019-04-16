@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Онтология</title>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+</head>
+<body>
+	
+<script type="text/javascript">
+google.load("visualization", "1.1", 
+{packages:["wordtree"]});
+ google.setOnLoadCallback(drawChart);
+ function drawChart() {
+ var data = google.visualization.arrayToDataTable(
+ [ ['Фразы'],
+ ['Квадратное_уравнение b=0 c=0 x=0'],
+ ['Квадратное_уравнение b=0 c_не_равно_0 -c/a>=0 x=-sqrt(-c/a)'],
+ ['Квадратное_уравнение b=0 c_не_равно_0 -c/a>=0 x=sqrt(-c/a)'],
+ ['Квадратное_уравнение b=0 c_не_равно_0 -c/a<0 Корней_нет'],
+ ['Квадратное_уравнение b_не_равно_0 c=0 x=0'],
+ ['Квадратное_уравнение b_не_равно_0 c=0 x=-b/a'],
+ ['Квадратное_уравнение b_не_равно_0 c_не_равно_0 D=b^2-4*a*c D<0 Корней_нет'],
+ ['Квадратное_уравнение b_не_равно_0 c_не_равно_0 D=b^2-4*a*c D=0 x=-b/2*a'],
+ ['Квадратное_уравнение b_не_равно_0 c_не_равно_0 D=b^2-4*a*c D>0 x=(-b-sqrt(D))/2*a'],
+ ['Квадратное_уравнение b_не_равно_0 c_не_равно_0 D=b^2-4*a*c D>0 x=(-b+sqrt(D))/2*a'],
+ ]
+ );
+ var options = {
+maxFontSize: 14,
+ wordtree: {
+ format: 'implicit',
+ word: 'Квадратное_уравнение'
+ }
+ };
+ var chart = new google.visualization.WordTree
+(document.getElementById('wordtree_basic'));
+ chart.draw(data, options);
+ }</script>
+
+ <div id="wordtree_basic" style="width: 100%; 
+height: 1000px;"></div>
+
+</body>
+</html>
