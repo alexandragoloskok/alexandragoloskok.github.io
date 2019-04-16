@@ -1,0 +1,2199 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.4]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+    "comments": {
+      "undefined": "Эта онтология показывает структуру уравнений, которые изучаются по школьной программе и методы их решений."
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.76",
+      "translation": [
+        557.45,
+        -557.55
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId48",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId50",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId52",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId53",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId54",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId58",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId62",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId60",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId64",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId65",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId66",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId67",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId68",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId69",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId70",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId71",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId72",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#b=0,_c=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "b=0,_c=0"
+      },
+      "pos": [
+        659.23,
+        526.53
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Уравнения",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Уравнения"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        59.6,
+        1189.23
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#D=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "D=0"
+      },
+      "pos": [
+        1293.81,
+        1020.17
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#b!=0,_c!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "b!=0,_c!=0"
+      },
+      "pos": [
+        1116.16,
+        382.15
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Целые",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Целые"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения, которые не содержат выражение с переменной в знаменателе"
+      },
+      "pos": [
+        223.32,
+        222.44
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a!=0,_b!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a!=0,_b!=0"
+      },
+      "pos": [
+        531.13,
+        -876.59
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a_больше_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a_больше_за_0"
+      },
+      "pos": [
+        -731.46,
+        572.01
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Логарифмические",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Логарифмические"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения, которые имеют переменную в основании или значении логарифма"
+      },
+      "pos": [
+        183.12,
+        1546.6
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Показательные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Показательные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения, которые имеют переменную в значении степени"
+      },
+      "pos": [
+        349.78,
+        1441.82
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a=0,_b!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a=0,_b!=0"
+      },
+      "pos": [
+        749.15,
+        -478.02
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Двочленные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Двочленные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения вида a**n=x"
+      },
+      "pos": [
+        -357.14,
+        173.98
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#D_больше_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "D_больше_за_0"
+      },
+      "pos": [
+        1620.17,
+        1000.97
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#n=2*k,_k_принадлежит_N",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "n=2*k,_k_принадлежит_N"
+      },
+      "comment": {
+        "undefined": "n - натуральное парное число"
+      },
+      "pos": [
+        53.16,
+        412.14
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a=0,_b=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a=0,_b=0"
+      },
+      "pos": [
+        175.34,
+        -870.13
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Иррациональные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Иррациональные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения, которые имеют переменную под знаком корня"
+      },
+      "pos": [
+        -234.67,
+        1399.36
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Рациональные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Рациональные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Самые простые уравнения, которые содержат арифметические действия над переменной, и переменная может быть возведена в целую положительную степень"
+      },
+      "pos": [
+        91.44,
+        1005.71
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#С_модулем",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "С_модулем"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения, содержащие выражение с переменной под знаком модуля"
+      },
+      "pos": [
+        -140.96,
+        -283.44
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Линейные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Линейные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения вида a*x+b=0"
+      },
+      "pos": [
+        348.97,
+        -513.25
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Тригонометрические",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Тригонометрические"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения, содержащие переменную в тригонометрической функции"
+      },
+      "pos": [
+        -32.91,
+        1543.83
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#D=b**2-4*a*c",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "D=b**2-4*a*c"
+      },
+      "pos": [
+        1317.51,
+        645.62
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Биквадратные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Биквадратные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Уравнения вида a*x**4+b*x**2+c=0"
+      },
+      "pos": [
+        -181.18,
+        -36.92
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#x**2=t",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "x**2=t"
+      },
+      "comment": {
+        "undefined": "С помощью этой замены приходим к обычному квадратному уравнению a*t**2+b*t+c=0"
+      },
+      "pos": [
+        506.2,
+        -201.14
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#c=0,_b!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "c=0,_b!=0"
+      },
+      "pos": [
+        813.16,
+        594.23
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a!=0"
+      },
+      "pos": [
+        -673.1,
+        777.55
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#-c/a_меньше_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "-c/a_меньше_за_0"
+      },
+      "pos": [
+        1165.41,
+        -422.58
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Высшие_степеня",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Высшие_степеня"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения, которые содержат переменную в степени, что больше двух"
+      },
+      "pos": [
+        -10.52,
+        -384.87
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#D_меньше_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "D_меньше_за_0"
+      },
+      "pos": [
+        1639.79,
+        505.02
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Дробные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Дробные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения, которые содержать выражение с переменной в знаменателе"
+      },
+      "pos": [
+        -250.04,
+        1112.8
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a_меньше_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a_меньше_за_0"
+      },
+      "pos": [
+        479.79,
+        457.82
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#b=0,_c!=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "b=0,_c!=0"
+      },
+      "pos": [
+        1196.87,
+        -74.8
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#n=2*k+1,_k_принадлежит_N",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "n=2*k+1,_k_принадлежит_N"
+      },
+      "comment": {
+        "undefined": "n - натуральное непарное число"
+      },
+      "pos": [
+        -319.96,
+        617.79
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#a=0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "a=0"
+      },
+      "pos": [
+        434.89,
+        844.67
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#метод_замены",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "метод_замены"
+      },
+      "pos": [
+        108.95,
+        -319.81
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Квадратные",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "Квадратные"
+      },
+      "attributes": [
+        "external"
+      ],
+      "comment": {
+        "undefined": "Рациональные уравнения вида a*x**2+b*x+c=0"
+      },
+      "pos": [
+        742.7,
+        151.01
+      ]
+    },
+    {
+      "id": "88",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8#-c/a_больше_равно_за_0",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": {
+        "IRI-based": "-c/a_больше_равно_за_0"
+      },
+      "pos": [
+        1577.8,
+        -226.75
+      ]
+    },
+    {
+      "id": "NodeId48",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "(-b+sqrt(D))/2*a",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1500.09,
+        1228.06
+      ]
+    },
+    {
+      "id": "NodeId50",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "(-b-sqrt(D))/2*a",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1470.17,
+        1150.97
+      ]
+    },
+    {
+      "id": "NodeId52",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=-b/2*a",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1143.81,
+        1170.17
+      ]
+    },
+    {
+      "id": "NodeId53",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=-b/a",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        921.03,
+        863.7
+      ]
+    },
+    {
+      "id": "NodeId54",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=0",
+      "pos": [
+        676.16,
+        819.63
+      ]
+    },
+    {
+      "id": "NodeId57",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=0",
+      "pos": [
+        626.24,
+        756.27
+      ]
+    },
+    {
+      "id": "NodeId58",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=0",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        258.89,
+        934
+      ]
+    },
+    {
+      "id": "NodeId62",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=sqrt(-c/a)",
+      "pos": [
+        1661.71,
+        16.06
+      ]
+    },
+    {
+      "id": "NodeId60",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=-sqrt(-c/a)",
+      "pos": [
+        1476.84,
+        3.23
+      ]
+    },
+    {
+      "id": "NodeId64",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Корней нет",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1429.24,
+        -434.17
+      ]
+    },
+    {
+      "id": "NodeId65",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Корней нет",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1028.74,
+        -287.29
+      ]
+    },
+    {
+      "id": "NodeId66",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Корней нет",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1771.04,
+        813.1
+      ]
+    },
+    {
+      "id": "NodeId67",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Корней нет",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        319.39,
+        323.52
+      ]
+    },
+    {
+      "id": "NodeId68",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=b/a",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        381.13,
+        -726.59
+      ]
+    },
+    {
+      "id": "NodeId69",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Все_действительные_числа",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        25.34,
+        -720.13
+      ]
+    },
+    {
+      "id": "NodeId70",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=pow(a,1/n)",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -823.1,
+        927.55
+      ]
+    },
+    {
+      "id": "NodeId71",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=pow(a,1/n)",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -748.78,
+        321.32
+      ]
+    },
+    {
+      "id": "NodeId72",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "x=-pow(a,1/n)",
+      "pos": [
+        -633.17,
+        465.83
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "42",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "43",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "49",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "50",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "54",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "106",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "107",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "108",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "109",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "110",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "111",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "112",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "113",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "114",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "115",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "datatypeProperty70",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty72",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty73",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty74",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty75",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty78",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty79",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty80",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty82",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty83",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty85",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty86",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty87",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty88",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty89",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty90",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty91",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty93",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty94",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty95",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty96",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty97",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty98",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty99",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty100",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty101",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty102",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty103",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty104",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty105",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty106",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty107",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty108",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty109",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty110",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty111",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty112",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty113",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty115",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty116",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty117",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty118",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty119",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty120",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty121",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty122",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty123",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty124",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty125",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty126",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty127",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty128",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty129",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "42",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "23"
+    },
+    {
+      "id": "43",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "23"
+    },
+    {
+      "id": "49",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "25"
+    },
+    {
+      "id": "50",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "24"
+    },
+    {
+      "id": "54",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "23",
+      "range": "25"
+    },
+    {
+      "id": "106",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "1"
+    },
+    {
+      "id": "107",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "24"
+    },
+    {
+      "id": "108",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "23"
+    },
+    {
+      "id": "109",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "25"
+    },
+    {
+      "id": "110",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "1"
+    },
+    {
+      "id": "111",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "24"
+    },
+    {
+      "id": "112",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "23"
+    },
+    {
+      "id": "113",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "25"
+    },
+    {
+      "id": "114",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "17"
+    },
+    {
+      "id": "115",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "25"
+    },
+    {
+      "id": "datatypeProperty70",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "39",
+      "range": "NodeId48",
+      "pos": [
+        1551.09,
+        1131.62
+      ]
+    },
+    {
+      "id": "datatypeProperty72",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "39",
+      "range": "NodeId50",
+      "pos": [
+        1532.5,
+        1088.65
+      ]
+    },
+    {
+      "id": "datatypeProperty73",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "11",
+      "range": "NodeId52",
+      "pos": [
+        1206.13,
+        1107.85
+      ]
+    },
+    {
+      "id": "datatypeProperty74",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "63",
+      "range": "NodeId53",
+      "pos": [
+        874.38,
+        747.17
+      ]
+    },
+    {
+      "id": "datatypeProperty75",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "63",
+      "range": "NodeId54",
+      "pos": [
+        734.71,
+        723.29
+      ]
+    },
+    {
+      "id": "datatypeProperty78",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "3",
+      "range": "NodeId57",
+      "pos": [
+        639.9,
+        661.15
+      ]
+    },
+    {
+      "id": "datatypeProperty79",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "59",
+      "range": "NodeId58",
+      "pos": [
+        334.45,
+        895.65
+      ]
+    },
+    {
+      "id": "datatypeProperty80",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "88",
+      "range": "NodeId60",
+      "pos": [
+        1519.47,
+        -93.87
+      ]
+    },
+    {
+      "id": "datatypeProperty82",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "88",
+      "range": "NodeId62",
+      "pos": [
+        1626.19,
+        -86.72
+      ]
+    },
+    {
+      "id": "datatypeProperty83",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "64",
+      "range": "NodeId64",
+      "pos": [
+        1301.8,
+        -428.57
+      ]
+    },
+    {
+      "id": "datatypeProperty84",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "44",
+      "range": "NodeId65",
+      "pos": [
+        902.27,
+        -373.56
+      ]
+    },
+    {
+      "id": "datatypeProperty85",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "48",
+      "range": "NodeId66",
+      "pos": [
+        1713.08,
+        677.06
+      ]
+    },
+    {
+      "id": "datatypeProperty86",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "58",
+      "range": "NodeId67",
+      "pos": [
+        386.4,
+        379.62
+      ]
+    },
+    {
+      "id": "datatypeProperty87",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "30",
+      "range": "NodeId68",
+      "pos": [
+        443.45,
+        -788.91
+      ]
+    },
+    {
+      "id": "datatypeProperty88",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "57",
+      "range": "NodeId69",
+      "pos": [
+        87.66,
+        -782.45
+      ]
+    },
+    {
+      "id": "datatypeProperty89",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "76",
+      "range": "NodeId70",
+      "pos": [
+        -760.78,
+        865.23
+      ]
+    },
+    {
+      "id": "datatypeProperty90",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "15",
+      "range": "NodeId71",
+      "pos": [
+        -741.5,
+        426.72
+      ]
+    },
+    {
+      "id": "datatypeProperty91",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Решение",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Решение",
+      "domain": "15",
+      "range": "NodeId72",
+      "pos": [
+        -669.96,
+        505.57
+      ]
+    },
+    {
+      "id": "objectProperty93",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "63",
+      "pos": [
+        777.93,
+        372.62
+      ]
+    },
+    {
+      "id": "objectProperty94",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "3",
+      "pos": [
+        700.97,
+        338.77
+      ]
+    },
+    {
+      "id": "objectProperty95",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "20",
+      "pos": [
+        929.43,
+        266.58
+      ]
+    },
+    {
+      "id": "objectProperty96",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Действие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Действие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "20",
+      "range": "12",
+      "pos": [
+        1216.84,
+        513.88
+      ]
+    },
+    {
+      "id": "objectProperty97",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "12",
+      "range": "48",
+      "pos": [
+        1478.65,
+        575.32
+      ]
+    },
+    {
+      "id": "objectProperty98",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "12",
+      "range": "11",
+      "pos": [
+        1305.66,
+        832.9
+      ]
+    },
+    {
+      "id": "objectProperty99",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "12",
+      "range": "39",
+      "pos": [
+        1468.84,
+        823.3
+      ]
+    },
+    {
+      "id": "objectProperty100",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "94",
+      "range": "88",
+      "pos": [
+        1387.33,
+        -150.77
+      ]
+    },
+    {
+      "id": "objectProperty101",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "domain": "94",
+      "range": "64",
+      "pos": [
+        1181.14,
+        -248.69
+      ]
+    },
+    {
+      "id": "objectProperty102",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "94",
+      "pos": [
+        969.78,
+        38.11
+      ]
+    },
+    {
+      "id": "objectProperty103",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "44",
+      "pos": [
+        549.06,
+        -495.63
+      ]
+    },
+    {
+      "id": "objectProperty104",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "30",
+      "pos": [
+        440.05,
+        -694.92
+      ]
+    },
+    {
+      "id": "objectProperty105",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "57",
+      "pos": [
+        262.16,
+        -691.69
+      ]
+    },
+    {
+      "id": "objectProperty106",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "domain": "2",
+      "range": "24",
+      "pos": [
+        286.15,
+        -145.41
+      ]
+    },
+    {
+      "id": "objectProperty107",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "17",
+      "pos": [
+        106.4,
+        -81.21
+      ]
+    },
+    {
+      "id": "objectProperty108",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "23",
+      "pos": [
+        41.18,
+        -30.5
+      ]
+    },
+    {
+      "id": "objectProperty109",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "19",
+      "pos": [
+        21.07,
+        92.76
+      ]
+    },
+    {
+      "id": "objectProperty110",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Действие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Действие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "37",
+      "pos": [
+        -36.12,
+        -178.36
+      ]
+    },
+    {
+      "id": "objectProperty111",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Действие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Действие",
+      "domain": "37",
+      "range": "41",
+      "pos": [
+        307.57,
+        -260.47
+      ]
+    },
+    {
+      "id": "objectProperty112",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Действие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Действие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "41",
+      "range": "1",
+      "pos": [
+        624.45,
+        -25.07
+      ]
+    },
+    {
+      "id": "objectProperty113",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "1",
+      "pos": [
+        483.01,
+        186.72
+      ]
+    },
+    {
+      "id": "objectProperty115",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "2",
+      "pos": [
+        157.38,
+        614.07
+      ]
+    },
+    {
+      "id": "objectProperty116",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "61",
+      "pos": [
+        -79.3,
+        1059.25
+      ]
+    },
+    {
+      "id": "objectProperty117",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "10",
+      "pos": [
+        75.52,
+        1097.47
+      ]
+    },
+    {
+      "id": "objectProperty118",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "attributes": [
+        "object"
+      ],
+      "domain": "5",
+      "range": "8",
+      "pos": [
+        204.69,
+        1315.53
+      ]
+    },
+    {
+      "id": "objectProperty119",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "domain": "5",
+      "range": "6",
+      "pos": [
+        121.36,
+        1367.91
+      ]
+    },
+    {
+      "id": "objectProperty120",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "domain": "5",
+      "range": "9",
+      "pos": [
+        13.35,
+        1366.53
+      ]
+    },
+    {
+      "id": "objectProperty121",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Тип",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Тип",
+      "domain": "5",
+      "range": "7",
+      "pos": [
+        -87.54,
+        1294.29
+      ]
+    },
+    {
+      "id": "objectProperty122",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Вид",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Вид",
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "25",
+      "pos": [
+        -66.91,
+        198.21
+      ]
+    },
+    {
+      "id": "objectProperty123",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "34",
+      "pos": [
+        -151.99,
+        293.06
+      ]
+    },
+    {
+      "id": "objectProperty124",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "51",
+      "pos": [
+        -338.55,
+        395.88
+      ]
+    },
+    {
+      "id": "objectProperty125",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "34",
+      "range": "15",
+      "pos": [
+        -339.15,
+        492.08
+      ]
+    },
+    {
+      "id": "objectProperty126",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "34",
+      "range": "58",
+      "pos": [
+        266.48,
+        434.98
+      ]
+    },
+    {
+      "id": "objectProperty127",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "34",
+      "range": "59",
+      "pos": [
+        244.03,
+        628.41
+      ]
+    },
+    {
+      "id": "objectProperty128",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "51",
+      "range": "59",
+      "pos": [
+        57.47,
+        731.23
+      ]
+    },
+    {
+      "id": "objectProperty129",
+      "iri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8Условие",
+      "baseIri": "http://www.semanticweb.org/хозяин/ontologies/2019/3/untitled-ontology-8",
+      "label": "Условие",
+      "attributes": [
+        "object"
+      ],
+      "domain": "51",
+      "range": "76",
+      "pos": [
+        -496.53,
+        697.67
+      ]
+    }
+  ]
+}
