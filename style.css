@@ -1,0 +1,35 @@
+body{
+	margin:0;
+	padding:0;
+	background: url(img/forest.jpg) no-repeat;
+	background-color: #051900;
+	background-size: 100%;
+	font-size: 150%;
+}
+
+#left, #right {
+	margin:2.5%;
+	width:37.5%;
+	float:left;
+	padding: 2.5%;
+	border:solid 2.5px white;
+	border-radius: 5px;
+}
+#right {
+	background-color: white;
+}
+#left {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-top: 50px;
+	height: 550px;
+}
+
+div{
+	text-align:center;
+}
+
+img{
+	position:relative;
+	height: 450px;
+}
